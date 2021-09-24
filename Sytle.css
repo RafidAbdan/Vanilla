@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.nav1{
+    width: 95%;
+    height: 80px;
+    z-index: 1;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+.Logo{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav1,.nav_link{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    list-style: none;
+    background-color:transparent;
+}
+.nav_link{
+    width: auto;
+    height: 30px;
+    background-color: transparent;
+}
+.link{
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.link:hover{
+    color:wheat;
+}
+#Body1{
+    background-color: black ;
+}
+#title1{
+    color: white;
+
+}
+.squareform{
+    text-align: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+}
+.Form{
+    height: 410px;
+    width: 400px;
+    background-color: rgb(212, 212, 207);
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(147, 71, 182, 0.664);
+    text-align: left;
+}
+.submit{
+    width:83%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: wheat;
+    text-align: center;
+    border: 2px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.submitForm{
+    line-height: 45px;
+    text-decoration: none;
+    color: black;
+}
+.submit:hover{
+    background-color: gray;
+    color: white;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+.submitForm:hover{
+    color: white;
+}
+.Form2{
+    width: 400px;
+    height: auto;
+    display: flex;
+    margin-left: 100px;
+}
+#isiform2{
+    color: wheat;
+    font-size: 50px;
+}
+#isiform3{
+    color: rgb(255, 255, 255);
+}
+.greek{
+    width: 400px;
+    z-index: -1;
+    position: absolute;
+    left: 550px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:300px;
+}
+#Body2{
+    background-color: black;
+}
+.Isihome1{
+    width: 90%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:100px;
+    border-width: 5px;
+    border-top-style: solid;
+    border: rgb(214, 174, 100);
+}
+.foto2{
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.isi{
+    width: 90%;
+    height: 300px;
+    color: white;
+    padding-top: 85px;
+    text-align: center;
+    font-size: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.isihome2{
+    width: 80%;
+    height: 550px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Foto1{
+    width: 400px;
+    margin-right: 50px;
+}
+#judul1{
+    color: white;
+    width: 400px;
+    height: auto;
+    font-size: 60px;
+    margin-top: 150px;
+    margin-left: 85px;
+}
+#isi2{
+    color: wheat;
+    width: 300px;
+    height: auto;
+    font-size:larger;
+    margin-left: 100px;
+}
+#Body3{
+    background-color: black;
+}
+
+.Judul3{
+    color: wheat;
+    width: 400px;
+    height: auto;
+    font-size:60px ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.Porto{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin-left: 300px;
+
+}
+#Foto3{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+#Isiporto{
+    color: white;
+    font-size: larger;
+    margin-top: 75px;
+    margin-right: 80px;
+}
+.contact{
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+}
+#contact1{
+    color: wheat;
+    font-size: 30px;
+    text-align: center;
+}
+.Sosmed{
+    text-align: center;
+}
+
+.item{
+    font-size: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#Body4{
+    background-color: black;
+}
+.Article{
+    display:flex;
+
+}
+.title{
+    color:white;
+    font-size:70px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:200px;
+}
+.Arcphoto1{
+    width: 400px;
+    margin-left:150px;
+}
+.FotoUtama{
+    width:400px;
+    z-index:-1;
+    margin-left:450px;
+    margin-right:auto;
+    position:absolute;
+}
+.isi1{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:400px;
+    display: flex;
+
+}
+.IsiArticle1{
+    width:400px;
+    height:auto;
+    margin-left:30px;
+    padding-left:25px;
+}
+.Judul1{
+    font-size:30px;
+    color:wheat;
+}
+.badan1{
+    font-size:20px;
+    color:white;
+}
+.isi2{
+    width:900px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top:200px;
+    display: flex;
+}
+.IsiArticle2{
+    width:400px;
+    height:auto;
+    margin-left:30px;
+    padding-right:10px;
+    
+}
+.Judul2{
+    font-size:30px;
+    color:wheat;
+
+}
+.badan2{
+    font-size:20px;
+    color:white;
+}
+.Arcphoto2{
+    width:400px
+}
+.isi3{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:200px;
+    display: flex;
+}
+.Arcphoto3{
+    width:250px;
+    margin-left:150px;
+    padding-right:30px;
+    margin-bottom:200px;
+}
+#Body5{
+    background-color: black;
+}
+.Karya{
+    display: flex;
+}
+.Art1{
+    width: 200px;
+    position: absolute;
+    margin-left: 200px;
+}
+.Art2{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-left: 850px;
+    margin-top: 30px;
+}
+.Art3{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-left: 500px;
+    margin-top: 70px;
+}
