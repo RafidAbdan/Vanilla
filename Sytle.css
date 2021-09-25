@@ -47,7 +47,11 @@
     color:wheat;
 }
 #Body1{
-    background-color: black ;
+    background-color: black;
+    overflow-y: scroll;
+}
+#Body1::-webkit-scrollbar{
+    display: none;
 }
 #title1{
     color: white;
@@ -123,6 +127,10 @@
 }
 #Body2{
     background-color: black;
+    overflow-y: scroll;
+}
+#Body2::-webkit-scrollbar{
+    display: none;
 }
 .Isihome1{
     width: 90%;
@@ -180,6 +188,10 @@
 }
 #Body3{
     background-color: black;
+    overflow-y: scroll;
+}
+#Body3::-webkit-scrollbar{
+    display: none;
 }
 
 .Judul3{
@@ -236,6 +248,10 @@
 }
 #Body4{
     background-color: black;
+    overflow-y: scroll;
+}
+#Body4::-webkit-scrollbar{
+    display: none;
 }
 .Article{
     display:flex;
@@ -322,6 +338,10 @@
 }
 #Body5{
     background-color: black;
+    overflow-y: scroll;
+}
+#Body5::-webkit-scrollbar{
+    display: none;
 }
 .Karya{
     display: flex;
