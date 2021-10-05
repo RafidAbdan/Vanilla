@@ -347,16 +347,14 @@
     display: flex;
 }
 .Art1{
-    width: 200px;
+    width: 230px;
     position: absolute;
     margin-left: 200px;
 }
 .Art2{
+    width: 250px;
     position: absolute;
-    width: 300px;
-    height: auto;
     margin-left: 850px;
-    margin-top: 30px;
 }
 .Art3{
     position: absolute;
